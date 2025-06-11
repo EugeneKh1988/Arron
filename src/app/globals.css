@@ -114,7 +114,8 @@
 
   --spacing: 1px;
 
-  --breakpoint-3xl: 120rem;
+  --breakpoint-3xl: 110rem;
+  --breakpoint-4xl: 120rem;
 
   --font-gilroy: 'Gilroy',
     Arial,

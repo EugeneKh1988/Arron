@@ -1,7 +1,9 @@
-import Image from "next/image";
+import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
-    <p className="text-[48px] text-alto border-1 mt-4">Hello</p>
+    <>
+      <Nav activeMenuName="Other" />
+    </>
   );
 }
