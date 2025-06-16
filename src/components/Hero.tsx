@@ -20,7 +20,7 @@ const Hero: React.FC<HeroProps> = ({ className, }) => {
         <div className="relative xl:static w-full xl:max-w-765 xl:order-last">
           <div className="md:max-w-476 xl:max-w-609 mx-auto xl:mx-0 xl:relative">
             <Image src={masterImg} alt="Master" />
-            <div className="hidden xl:block max-w-264 rounded-[30px] bg-white absolute right-0 top-1/3 px-20 pb-30">
+            <div className="hidden xl:block max-w-264 rounded-[30px] bg-white absolute right-0 top-1/3 px-20 pb-30 shadow-blaze-orange-500 shadow-xs">
               <DiscountPercent className="flex justify-center -mt-60 items-end" />
               <div>
                 <p className="text-[16px] md:text-[20px] leading-22 md:leading-26 tracking-[-0.01em] md:max-w-213">
