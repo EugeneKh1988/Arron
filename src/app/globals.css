@@ -44,6 +44,21 @@
   --color-alizarin-crimson-950: #500009;
   --color-alizarin-crimson: #E2001A;
 
+  --color-torch-red-50: #fff0f2;
+  --color-torch-red-100: #ffdde1;
+  --color-torch-red-200: #ffc1c8;
+  --color-torch-red-300: #ff96a2;
+  --color-torch-red-400: #ff596c;
+  --color-torch-red-500: #ff263f;
+  --color-torch-red-600: #fc142f;
+  --color-torch-red-700: #d4011a;
+  --color-torch-red-800: #af0519;
+  --color-torch-red-900: #900c1b;
+  --color-torch-red-950: #4f0009;
+  --color-torch-red: #FC142F;
+
+
+
   --color-masala-50: #f6f6f6;
   --color-masala-100: #e7e7e7;
   --color-masala-200: #d1d1d1;
@@ -116,6 +131,10 @@
 
   --breakpoint-3xl: 110rem;
   --breakpoint-4xl: 120rem;
+
+  --shadow-soft-glow: 0 2.32px 1.85px 0 #FF6B0007;
+  --shadow-timer: 0px 3.22px 3.62px 0px #FF6B000A, 0px 8.89px 10.02px 0px #FF6B000E, 0px 21.4px 24.12px 0px #FF6B0012, 0px 71px 80px 0px #FF6B001C;
+
 
   --font-gilroy: 'Gilroy',
     Arial,
