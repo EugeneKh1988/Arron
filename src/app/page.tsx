@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Advantages from "@/components/Advantages";
 import Gadgets from "@/components/Gadgets";
 import Hero from "@/components/Hero";
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Advantages />
       <Gadgets />
+      <About />
     </>
   );
 }

@@ -130,6 +130,21 @@ const SvgIcon = ({
         />
       </svg>
     ),
+    play: (
+      <svg
+        width="18"
+        height="18"
+        viewBox="0 0 18 18"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...classNameValue}
+      >
+        <path
+          d="M3.75 4.08191C3.75 3.29074 4.62525 2.8129 5.29076 3.24073L12.9415 8.15907C13.5538 8.5527 13.5538 9.44779 12.9415 9.84142L5.29076 14.7598C4.62525 15.1876 3.75 14.7097 3.75 13.9186V4.08191Z"
+          fill="currentColor"
+        />
+      </svg>
+    ),
   };
 
   const Icon = icons[iconName];
