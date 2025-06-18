@@ -134,9 +134,15 @@
 
   --shadow-soft-glow: 0 2.32px 1.85px 0 #FF6B0007;
   --shadow-timer: 0px 3.22px 3.62px 0px #FF6B000A, 0px 8.89px 10.02px 0px #FF6B000E, 0px 21.4px 24.12px 0px #FF6B0012, 0px 71px 80px 0px #FF6B001C;
-
+  --shadow-gadgets: 0px 8px 10px 0px #FF6B0014, 0px 50px 60px 0px #FF6B0014;
+  --shadow-gadget-icon: 0px 10px 10px 0px #FF6B000D, 0px 20px 40px 0px #FF6B0021;
 
   --font-gilroy: 'Gilroy',
+    Arial,
+    Helvetica,
+    sans-serif;
+
+    --font-bebas: 'Bebas Neue',
     Arial,
     Helvetica,
     sans-serif;
@@ -167,6 +173,13 @@
   @font-face {
     font-family: 'Gilroy';
     src: url('../../public/fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Bebas Neue';
+    src: url('../../public/fonts/BebasNeue-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
   }

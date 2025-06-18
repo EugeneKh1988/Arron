@@ -15,3 +15,17 @@ export interface IAdvantageItem {
     description?: string;
     imageSrc?: string;
 }
+
+export interface IGadgetItem {
+    title?: string,
+    imageSrc?: string,
+    additionalIconName?: string,
+    url?: string,
+    decorationImage?: {
+      src: string,
+      size: {
+        width: number,
+        height: number,
+      }
+    },
+  }
