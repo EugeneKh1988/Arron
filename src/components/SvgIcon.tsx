@@ -130,6 +130,24 @@ const SvgIcon = ({
         />
       </svg>
     ),
+    chevronLeft: (
+      <svg
+        width="24"
+        height="25"
+        viewBox="0 0 24 25"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...classNameValue}
+      >
+        <path
+          d="M15.0001 18.2925L9.00012 12.2925L15.0001 6.29248"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    ),
     play: (
       <svg
         width="18"

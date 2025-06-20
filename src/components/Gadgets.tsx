@@ -138,8 +138,8 @@ const Gadgets: React.FC<GadgetsProps> = ({ className }) => {
   };
   
   return (
-    <Container className={`mt-100 ${classNameValue}`}>
-      <div className="hidden md:grid md:grid-cols-2 xl:grid-cols-4 justify-center justify-items-center gap-60 4xl:gap-30">
+    <Container className={`mt-83 xl:mt-139 ${classNameValue}`}>
+      <div className="hidden md:grid md:grid-cols-2 xl:grid-cols-4 justify-center justify-items-center gap-60 gap-y-70 4xl:gap-30">
         <div className="md:col-span-2 justify-self-start">
           <h2 className="font-bebas font-bold text-[26px] md:text-[40px] 4xl:text-[80px] 4xl:leading-84 leading-26 md:leading-40 2xl:max-w-500 uppercase">
             Мы работаем c устройствами:

@@ -36,7 +36,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
   const classNameValue = className ? `${className}` : '';
   
   return (
-    <div className="bg-[#EBF3F8] mt-60 md:mt-90 pt-60 md:pt-80">
+    <div className="bg-[#EBF3F8] mt-60 md:mt-120 pt-60 md:pt-80">
       <Container className={` ${classNameValue}`}>
         <div className="flex gap-48 xl:gap-60 flex-col xl:flex-row">
           <div className="text-center md:text-left w-full xl:w-auto md:flex md:justify-between md:items-center xl:block">
@@ -73,7 +73,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
                 </p>
               </div>
             ))}
-            <div className="absolute -right-30 bottom-50 -z-1">
+            <div className="absolute -right-30 bottom-50">
               <Image src={waves} alt="" />
             </div>
           </div>

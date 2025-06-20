@@ -42,7 +42,7 @@ const Hero: React.FC<HeroProps> = ({ className, }) => {
           <h1 className="font-bold text-[32px] md:text-[70px] 4xl:text-[110px] leading-none 4xl:leading-100 tracking-[-0.01em]">
             Проблемы с Вашим устройством?
           </h1>
-          <div className="mt-10 mx-auto xl:mx-0 text-center xl:text-left max-w-393 text-masala text-[24px] leading-34 tracking-[-0.01em]">
+          <div className="mt-10 4xl:mt-20 mx-auto xl:mx-0 text-center xl:text-left max-w-393 text-masala text-[24px] leading-34 tracking-[-0.01em]">
             <p>Решаем любые проблемы!</p>
             <p>Большой склад и опытные мастера</p>
           </div>
