@@ -3,6 +3,7 @@ import Advantages from "@/components/Advantages";
 import Gadgets from "@/components/Gadgets";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
+import Projects from "@/components/Projects";
 import Reviews from "@/components/Reviews";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Gadgets />
       <About />
       <Reviews />
+      <Projects />
     </>
   );
 }
