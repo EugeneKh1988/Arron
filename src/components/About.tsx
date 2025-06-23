@@ -73,7 +73,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
                 </p>
               </div>
             ))}
-            <div className="absolute -right-30 bottom-50">
+            <div className="absolute right-30 bottom-50">
               <Image src={waves} alt="" />
             </div>
           </div>
