@@ -7,6 +7,7 @@ import Nav from "@/components/Nav";
 import Projects from "@/components/Projects";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
+import Workers from "@/components/Workers";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Projects />
       <Services />
       <Gifts />
+      <Workers />
     </>
   );
 }
