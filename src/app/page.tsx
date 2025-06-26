@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Advantages from "@/components/Advantages";
+import DiagnosticForm from "@/components/DiagnosticForm";
 import Gadgets from "@/components/Gadgets";
 import Gifts from "@/components/Gifts";
 import Hero from "@/components/Hero";
@@ -22,6 +23,7 @@ export default function Home() {
       <Services />
       <Gifts />
       <Workers />
+      <DiagnosticForm />
     </>
   );
 }
