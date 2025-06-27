@@ -1,6 +1,6 @@
 "use client"
 
-import { ActionIcon, Button, Drawer, ScrollArea } from "@mantine/core";
+import { ActionIcon, Drawer, ScrollArea } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import SvgIcon from "./SvgIcon";
 import { NavProps } from "./Nav";

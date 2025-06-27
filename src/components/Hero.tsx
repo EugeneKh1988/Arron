@@ -1,7 +1,6 @@
 import { Button } from "@mantine/core";
 import Container from "./Container";
 import Image from "next/image";
-import fire from "../../public/fire.svg";
 import masterImg from "../../public/master.png";
 import elementsImg from "../../public/elements.svg";
 import HeroTimer from "./HeroTimer";

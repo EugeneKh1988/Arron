@@ -2,7 +2,6 @@ import Image from "next/image";
 import fire from "../../public/fire.svg";
 import Container from "./Container";
 import { Button, TextInput } from "@mantine/core";
-import DiscountPercent from "./DiscountPercent";
 
 interface DiagnosticFormProps {
   className?: string;
