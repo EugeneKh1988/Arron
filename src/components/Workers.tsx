@@ -60,13 +60,11 @@ const Workers: React.FC<WorkersProps> = ({ className }) => {
             <SvgIcon iconName="chevronLeft" className="size-24" />
           }
           classNames={{
-            root: "",
-            viewport: "",
             slide: "basis-full",
             indicator:
               "size-4 bg-masala/40 data-active:size-12 data-active:bg-transparent data-active:border-2 data-active:border-alizarin-crimson",
             indicators: "flex items-center -bottom-32 xl:-bottom-25",
-            controls: "hidden xl:flex justify-between items-center gap-16",
+            controls: "hidden xl:flex justify-between items-center gap-16 px-0 -mx-24",
             control:
               "size-48 bg-white hover:bg-alizarin-crimson text-alizarin-crimson hover:text-white shadow-gadget-icon",
           }}

@@ -29,3 +29,9 @@ export interface IGadgetItem {
       }
     },
   }
+
+  export interface IContact {
+    values?: string[];
+    value?: string;
+    imageSrc: string;
+  }
