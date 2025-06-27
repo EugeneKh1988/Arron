@@ -10,6 +10,7 @@ import Projects from "@/components/Projects";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import Workers from "@/components/Workers";
+import MapCaller from "@/components/MapCaller";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Workers />
       <DiagnosticForm />
       <Contacts />
+      <MapCaller className="w-full min-h-700" />
     </>
   );
 }

@@ -56,7 +56,7 @@ const Contacts: React.FC<ContactsProps> = ({ className }) => {
   const classNameValue = className ? `${className}` : '';
   
   return (
-    <div className="bg-[#EBF3F8] mt-93 md:mt-120 xl:mt-116">
+    <div className="bg-[#EBF3F8] mt-93 md:mt-120 xl:mt-116 pb-20">
       <Container className={`pt-40 ${classNameValue}`}>
         <h1 className="text-center md:text-left font-bebas uppercase font-bold text-[26px] md:text-[56px] leading-none">
           наши контакты
